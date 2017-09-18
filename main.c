@@ -104,7 +104,7 @@ int   alt=0;
 #define SERVER1 "router.eu.thethings.network"    		// The Things Network: croft.thethings.girovito.nl
 //#define SERVER2 "192.168.1.10"      	// local
 #define PORT 1700                   	// The port on which to send data
-#define PORTNAME "1680"
+#define PORTNAME "1700"
 
 // #############################################
 // #############################################
