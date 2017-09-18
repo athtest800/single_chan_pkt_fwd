@@ -76,9 +76,9 @@ enum sf_t sf = SF7;
  *******************************************************************************/
 
 // SX1272 - Raspberry connections
-int ssPin = 6;
-int dio0  = 21;
-int RST   = 22;
+int ssPin = 14;
+int dio0  = 1;
+int RST   = 0;
 
 #define LOW 		0
 #define HIGH 		1
@@ -101,7 +101,7 @@ int   alt=0;
 
 // define servers
 // TODO: use host names and dns
-#define SERVER1 "127.0.0.1"    		// The Things Network: croft.thethings.girovito.nl
+#define SERVER1 "router.eu.thethings.network"    		// The Things Network: croft.thethings.girovito.nl
 //#define SERVER2 "192.168.1.10"      	// local
 #define PORT 1700                   	// The port on which to send data
 #define PORTNAME "1680"
